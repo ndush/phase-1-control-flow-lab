@@ -1,13 +1,13 @@
 function scuberGreetingForFeet(feet) {
   // Write your code here!
-
-  if (feet <= 400) {
+    
+   if (feet <= 400) {
     return "This one is on me!";
-  } else if (feet > 2000 && feet < 2500) {
+   } else if (1999 < feet && feet < 2500) {
     return "I will gladly take your thirty bucks.";
   } else {
-    return "No can do.";
-  }
+     return "No can do.";
+   }
 }
 
 function ternaryCheckCity(city) {
